@@ -13,7 +13,7 @@ MonteCarloFit::MonteCarloFit(): d_size(0)
     d_dBss = 0.1;
     d_t = 1;
     d_dt = 0.1;
-    d_dsOver2 = 1;
+    d_dsOver2 = 0.5;
     d_ddsOver2 = 0.1;
 
     d_sum_diff_squares = 1E1000;
