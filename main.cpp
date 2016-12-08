@@ -53,35 +53,35 @@ void menu_UI(){
             mcObj.setda(r*mcObj.a());
             break;
         case 4:
-            cout<<"B_phi = ";
+            cout<<"Bss = ";
             cin>>B_phi;
             mcObj.setB_phi(B_phi);
             mcObj.updateSumDiffSquares();
             break;
         case 5:
-            cout<<"dB_phi/B_phi = ";
+            cout<<"dBss/Bss = ";
             cin>>r;
             mcObj.setdB_phi(r*mcObj.B_phi());
             break;
         case 6:
-            cout<<"B_SO = ";
+            cout<<"t = ";
             cin>>B_SO;
             mcObj.setB_SO(B_SO);
             mcObj.updateSumDiffSquares();
             break;
         case 7:
-            cout<<"dB_SO/B_SO = ";
+            cout<<"dt/t = ";
             cin>>r;
             mcObj.setdB_SO(r*mcObj.B_SO());
             break;
         case 8:
-            cout<<"B_e = ";
+            cout<<"dsOver2 = ds/2 = ";
             cin>>B_e;
             mcObj.setB_e(B_e);
             mcObj.updateSumDiffSquares();
             break;
         case 9:
-            cout<<"dB_e/B_e = ";
+            cout<<"d(dsOver2)/dsOver2 = ";
             cin>>r;
             mcObj.setdB_e(r*mcObj.B_e());
             break;

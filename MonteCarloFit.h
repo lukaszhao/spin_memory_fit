@@ -49,7 +49,7 @@ class MonteCarloFit
         double sigma(double B, double a, double Bss, double t, double dsOver2) {
             std::complex<double> x(t, B/Bss);
             std::complex<double> y(t, -B/Bss);
-            return (a*(pow(x,dsOver2) + pow(y,dsOver2))).real();
+            return (a*(pow(x,dsOver2) + pow(y,dsOver2) - 2.0 * (pow(t, dsOver2)))).real();
         }
 
         double calcSumDiffSquares(double a, double B_phi, double B_SO, double B_e);
