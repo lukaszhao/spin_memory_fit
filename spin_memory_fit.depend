@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1481167599 source:c:\users\lukas_xwwq2s\desktop\coding\c++ project\spin_memory_fit\main.cpp
+	<iostream>
+	"StringParser.h"
+	"MonteCarloFit.h"
+	<vector>
+	<string>
+	"Digamma.cpp"
+	"RandomGenerator.h"
+
+1481164295 c:\users\lukas_xwwq2s\desktop\coding\c++ project\spin_memory_fit\stringparser.h
+	<string>
+	<vector>
+	<unordered_set>
+
+1481167204 c:\users\lukas_xwwq2s\desktop\coding\c++ project\spin_memory_fit\montecarlofit.h
+	"RandomGenerator.h"
+	"Digamma.cpp"
+	<complex>
+
+1481164295 c:\users\lukas_xwwq2s\desktop\coding\c++ project\spin_memory_fit\randomgenerator.h
+
+1481164295 c:\users\lukas_xwwq2s\desktop\coding\c++ project\spin_memory_fit\digamma.cpp
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	<ctime>
+	<cmath>
+
+1481164295 source:c:\users\lukas_xwwq2s\desktop\coding\c++ project\spin_memory_fit\randomgenerator.cpp
+	"RandomGenerator.h"
+
+1481164295 source:c:\users\lukas_xwwq2s\desktop\coding\c++ project\spin_memory_fit\stringparser.cpp
+	"StringParser.h"
+	<iostream>
+
+1481167928 source:c:\users\lukas_xwwq2s\desktop\coding\c++ project\spin_memory_fit\montecarlofit.cpp
+	"MonteCarloFit.h"
+	<fstream>
+	<string>
+	"StringParser.h"
+	<iostream>
+

@@ -1,0 +1,9 @@
+
+#include"Digamma.cpp"
+
+
+int errorflag;
+
+when call function
+
+digamma(x, &errorflag) returns digamma(x)
