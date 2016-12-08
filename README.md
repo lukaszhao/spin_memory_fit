@@ -1,2 +1,2 @@
-# WL-WAL_fit
-Weak localization (WL) and Weak anti-locolization (WAL) data fit
+# Spin memory paper equation fit
+Monte Carlo fitting data to the spin memory paper equation
